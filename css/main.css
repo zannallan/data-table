@@ -9,3 +9,27 @@ main {
 tbody tr:nth-child(odd) {
   background-color: #e2e2e2;
 }
+
+table {
+  min-width: 50em;
+}
+
+.year {
+  width: 7em;
+}
+
+.distance {
+  width: 6em;
+}
+
+.notes {
+  width: 16em;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .table-wrapper {
+    overflow: visible;
+  }
+
+}
